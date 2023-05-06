@@ -31,6 +31,14 @@ img{
     background-size: contain;
     background-color: #f9f9fa;
     background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+.birthday__card h1 {
+    font-family:cursive;
+    font-size:1.8rem;
 }
 .birthday__profile{
     display: flex;
@@ -46,7 +54,7 @@ img{
 .birthday__profile img{
     width:20%
 }
-.btn__clear{
+#btn__clear{
     padding: 10px;
     margin: 0 15px;
     border: none;
